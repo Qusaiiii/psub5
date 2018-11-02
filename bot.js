@@ -3,7 +3,7 @@ var ChannelID = "507696158983061505";
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+const prefix = '!';
 
 client.on('warn', console.warn);
 
